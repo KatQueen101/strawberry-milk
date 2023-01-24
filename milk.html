@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strawberry Milk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="pinky">
+      <h1>Strawberry Milk 🐮🍓</h1>
+      <h2>How the best flavor is made</h2>
+      <hr />
+      <br />
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/042/008/original/Strawberry_Milkshake.png?1659031958"
+        alt="Strawberry milk with strawberries around it"
+        width="500"
+        <
+      />
+      <p>
+        <strong>Strawberry Milk</strong>
+        usually comprises a quick strawberry syrup made with pureed fruit and
+        sugar simmered to a thick syrupy consistency. That is added to added to
+        added to a glass, often topped up with additional chunks of fresh
+        strawberries before milk is poured into the glass and served.
+        <br />
+        <a
+          href="https://www.alphafoodie.com/strawberry-milk/"
+          target="_blank"
+          class="learnMore"
+        >
+          Learn More
+        </a>
+      </p>
+
+      <button class="theButton">GET SOME 🍓 MILK</button>
+      <script>
+        function GetSome() {
+          let name = prompt("What is your first name?");
+          let email = prompt("What is your email?");
+          alert(
+            "Congrats " +
+              name +
+              "! The strawberry milk train is coming your way!🚂💗"
+          );
+        }
+
+        let theButton = document.querySelector("button");
+        theButton.addEventListener("click", GetSome);
+      </script>
+    </div>
+    <p class="codedBy">Coded by Alexandria Goss</p>
+  </body>
+</html>
