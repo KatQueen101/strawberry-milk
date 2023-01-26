@@ -40,24 +40,8 @@ p {
   color: white;
 }
 
-button {
-  color: white;
-  font-size: 16px;
-  background: transparent;
-  border: 1px dashed white;
-  display: block;
-  font-size: 16px;
-  line-height: 22px;
-  padding: 16px 24px;
-  transition: all 200ms ease;
-  border-radius: 20px;
-  margin: 0 auto;
-  font-family: "Courier New", Courier, monospace;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-}
-
 button:hover {
-  color: rgb(255, 148, 114);
+  color: transparent;
   background: white;
   cursor: pointer;
 }
